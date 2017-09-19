@@ -1,0 +1,26 @@
+body {
+	background-color: #AA3939;
+}
+
+header {
+	background-color: #430000;
+	color: #FFBEBE;
+	font-family: Comic, Serif;
+	font-size: 80px;
+	height: 70px;
+	padding: 30px;
+}
+
+section {
+	background-color: #4E0000;
+	max-width: 900px;
+	padding: 10px;
+}
+
+article {
+	border-style: double;
+	border-width: 10px;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 5px;
+}

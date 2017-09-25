@@ -1,26 +1,109 @@
 body {
-	background-color: #AA3939;
+	background-color: #240582;
 }
 
 header {
-	background-color: #430000;
-	color: #FFBEBE;
+	background-color: #020006;
+	color: #EDE9FA;
 	font-family: Comic, Serif;
-	font-size: 80px;
+	font-size: 100px;
 	height: 70px;
 	padding: 30px;
 }
 
 section {
-	background-color: #4E0000;
+	background-color: #676470;
 	max-width: 900px;
 	padding: 10px;
 }
 
 article {
-	border-style: double;
-	border-width: 10px;
+	border-style: solid;
+	color: #EDE9FA;
+	border-width: 5px;
 	border-radius: 4px;
 	padding: 5px;
 	margin: 5px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	font-family: Comic, Serif;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #EDE9FA;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #060101;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: Comic, Serif;	
+}
+
+h2 {
+	font-size: 35px;
+	font-family: Comic, Serif;	
+}
+
+h3 {
+	font-size: 30px;
+	font-family: Comic, Serif;	
+}
+
+p {
+	font-family: Comic, Serif;
+	font-size: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+	color: #EDE9FA;
+	font-family: Comic, Serif;
+}
+
+tr:nth-child(even){background-color: #020006}
+
+
+th {
+	background-color: #240582;
+}
+
+#product {
+	font-size: 30px;
+
+}
+
+footer {
+	color: #EDE9FA;
+	font-family: Comic, Serif;
+}
+
+.odd {
+	background-color: #240582;
+}
+
+.even {
+	background-color: #020006;
 }

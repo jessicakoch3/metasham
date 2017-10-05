@@ -34,3 +34,8 @@ body {
 span{
   color: white;
 }
+
+th {
+    background: #5C5CFF;
+    color: white;
+}

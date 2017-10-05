@@ -63,30 +63,23 @@
     <!-- Main content -->
     <div class="container">
       <!-- This container moves below the menu bar -->
-      <h2>Log In</h2>
+      <h2>Forgot Password</h2>
       <form action="/form-group" method="post">
         <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" minlength="6" maxlength="50">
-        </div>
-        <div class="form-group">
-          <label for="pwd">Password</label>
+          <label for="pwd">Old Password</label>
           <input type="password" class="form-control" id="pwd" placeolder="Enter password" name="pwd" minlength="6" maxlength="50">
         </div>
-        <div class="checkbox">
-          <label><input type="checkbox" name="remember"> Remember Me</label>
-        </div>
-
-          <button type="login" class="btn btn-default">Log In</button>
-  
         <div class="form-group">
-          <span class="psw"><a href="forgot.html">Forgot password?</a></span>
-          <br>
+          <label for="pwd">New Password</label>
+          <input type="password" class="form-control" id="pwd" placeolder="Enter password" name="pwd" minlength="6" maxlength="50">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Confirm Password</label>
+          <input type="password" class="form-control" id="pwd" placeolder="Enter password" name="pwd" minlength="6" maxlength="50">
         </div>
         
-        <div class="alert alert-success">
-          <strong>Success!</strong> Log in correct!</a>.
-        </div>
+          <button type="create" class="btn btn-default">Create Password</button>
+  
       </form>
     </div>
 
